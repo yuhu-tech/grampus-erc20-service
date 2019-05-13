@@ -1,0 +1,16 @@
+# Port to run on
+server:
+  port: ${port:8080}
+
+# Our log file path and name
+logging:
+  file: logs/erc20-rest-service.log
+
+# Endpoint of an Ethereum or Quorum node we wish to use.
+# To use IPC simply provide a file path to the socket, such as /path/to/geth.ipc
+nodeEndpoint: http://127.0.0.1:8545
+#http://127.0.0.1:30303
+
+# The Ethereum or Quorum address we wish to use when transacting.
+# Note - this address must be already unlocked in the client
+fromAddress: "0x5ea4e1b7b750e3f5a3bee6913fa469455a590b75"
