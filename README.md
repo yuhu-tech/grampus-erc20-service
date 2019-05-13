@@ -13,29 +13,29 @@ For Quorum, the RESTful semantics are identical, with the exception that if you 
 a private transaction, you populate a HTTP header name *privateFor* with a comma-separated
 list of public keys
 
-#Production Makefile
+# Production Makefile
 
-##Build
+## Build
 ```
 make setup
 ```
 
-##Run
+## Run
 ```
 make run
 ```
 
-##Down
+## Down
 ```
 make down
 ```
 
-##Clear
+## Clear
 ```
 make clear
 ```
 
-##Usage
+## Usage
 http://localhost:8081/swagger-ui.html
 
 
