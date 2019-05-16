@@ -54,7 +54,7 @@ To build a runnable jar file:
 Using Java 1.8+:
 
 ```bash
-java -jar build/libs/azure-demo-0.1.jar 
+java -jar build/libs/erc20-rest-service-0.1.0.jar
 ```
 
 By default the application will log to a file named erc20-web3j.log. 

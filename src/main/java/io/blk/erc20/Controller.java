@@ -58,7 +58,8 @@ public class Controller {
                 contractSpecification.getInitialAmount(),
                 contractSpecification.getTokenName(),
                 contractSpecification.getDecimalUnits(),
-                contractSpecification.getTokenSymbol());
+                contractSpecification.getTokenSymbol(),
+                contractSpecification.getOwner());
     }
 
     @ApiOperation("Get token name")
@@ -208,6 +209,7 @@ public class Controller {
         private final String tokenName;
         private final BigInteger decimalUnits;
         private final String tokenSymbol;
+        private final String owner;
     }
 
     @Data
